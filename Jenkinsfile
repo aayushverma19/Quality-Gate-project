@@ -4,7 +4,7 @@ pipeline {
         maven 'maven'
         }
     environment {
-        git_url  = "https://github.com/jaiswaladi246/Petclinic.git"
+        git_url  = "https://github.com/aayushverma19/Quality-Gate-project.git"
         branch_name = 'main'
         SONAR_PROJECT_KEY = 'Qualty' 
         channel_name = 'test-case'
