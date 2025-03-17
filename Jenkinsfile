@@ -12,6 +12,11 @@ pipeline {
       
     }
     stages {
+        stage('clean-workspace'){
+            steps{
+                cleanWs()
+            }
+        }
         stage("git clone"){
           steps {
             git url: git_url, branch: branch_name
